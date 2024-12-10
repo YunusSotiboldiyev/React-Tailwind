@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./style.css"
 function App() {
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
